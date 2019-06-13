@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: splurty3_production
-  username: splurty3
-  password: <%= ENV['SPLURTY3_DATABASE_PASSWORD'] %>
+  # username: splurty3
+  # password: <%= ENV['SPLURTY3_DATABASE_PASSWORD'] %>
